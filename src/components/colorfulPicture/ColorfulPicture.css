@@ -1,0 +1,13 @@
+.pictureBox{
+    display: flex;
+    padding: 20px; 
+    padding-left: 25%; 
+    
+}
+.square{
+    width: 70%;
+
+}
+
+
+
