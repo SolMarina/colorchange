@@ -1,6 +1,5 @@
 .colorChangeBar{
     display: flex;
-    flex-flow: row;
     height: 50%;
     width: 100%;
     justify-content: space-evenly;
@@ -13,7 +12,7 @@
     padding-bottom: 20px;
 }
 
-button{
+.button{
 background-color: #ff3b3f;
 border:white solid;
 border-radius: 5px;
@@ -25,4 +24,10 @@ border-color: #ff3b3f ;
 box-shadow: none;
 outline:  #ff3b3f  ;
 border-radius: 5px;
+ }
+
+ form{
+    display: flex;
+    flex-flow: row; 
+   
  }
