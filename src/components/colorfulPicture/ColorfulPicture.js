@@ -14,8 +14,12 @@ useEffect(() => {
     return (
 
        
-    <div className='card'>
-        <p>{backgroundColor}</p>
+    <div className={backgroundColor =='azul' ? 'blue'
+    : backgroundColor=='rojo' ? 'red' 
+    : backgroundColor=='verde' ? 'green' : 'card'
+    
+    }>
+       
     </div>
         
     )
