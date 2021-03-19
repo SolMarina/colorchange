@@ -10,6 +10,7 @@
 .textBox{
     padding-top: 20px;
     padding-bottom: 20px;
+    
 }
 
 .button{
@@ -18,16 +19,19 @@ border:white solid;
 border-radius: 5px;
 color: white;
 height: 30px;
+
 }
  input{
 border-color: #ff3b3f ; 
 box-shadow: none;
 outline:  #ff3b3f  ;
 border-radius: 5px;
+
  }
 
  form{
     display: flex;
     flex-flow: row; 
-   
+    align-items: center;
+    align-content: space-between;
  }

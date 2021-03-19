@@ -5,13 +5,16 @@ import ColorfulPicure from './components/colorfulPicture/ColorfulPicture';
 
 const ColorChangeApp = (props) => {
     const [background, setBackground] = useState('')
+    const [number, setNumber] = useState('1')
+
 
     return (
         <div className='mainBox'>
             <h2>ColorChangeApp</h2>
             <hr></hr>
+            <p>{number}</p>
             <div className='changeBar'>
-                <ChangeBar setBackground={setBackground}/>
+                <ChangeBar setBackground={setBackground} setNumber={setNumber}  />
             </div>
             <div className='picture'>
                 <ColorfulPicure background= {background}/>
