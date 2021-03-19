@@ -4,7 +4,7 @@ import '../changeBar/ChangeBar.css';
 function ChangeBar({ setBackground, setNumber }) {
 
     const [inputValue, setInputvalue] = useState('');
-    const [inputNumber, setInputnumber] = useState('1');
+    const [inputNumber, setInputnumber] = useState('0');
 
     const handleInputChange = (e) => {
         setInputvalue(e.target.value);
@@ -28,7 +28,7 @@ function ChangeBar({ setBackground, setNumber }) {
         if (inputNumber.trim().length > 2) {
 
             setNumber(inputNumber);
-            setInputnumber('1');
+            setInputnumber('0');
 
         }
 
@@ -39,19 +39,22 @@ function ChangeBar({ setBackground, setNumber }) {
         <div className='colorChangeBar'>
             <div className='textBox'>
                 <form onSubmit={handleSubmit}>
-                    <div>
+                    <div className='imputBox'>
+                    <p><label>Ancho</label></p>
                         <input
                             type='text'
                             value={inputNumber}
                             onChange={handleInputNumber} />
                     </div>
-                    <div>
+                    <div  className='imputBox'>
+                    <p><label>Alto</label></p>
                         <input
                             type='text'
                             value={inputNumber}
                             onChange={handleInputNumber} />
                     </div>
-                    <div>
+                    <div  className='imputBox'>
+                    <p><label>Color</label></p>
                         <input
                             type='text'
                             value={inputValue}
