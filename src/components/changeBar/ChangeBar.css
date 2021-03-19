@@ -5,6 +5,8 @@
     justify-content: space-evenly;
     align-items: center;
     background-color: #caebf2;
+    border-radius: 10px;
+    border:#636363 solid; 
 }
 
 .textBox{
@@ -20,13 +22,14 @@ border-radius: 5px;
 color: white;
 height: 30px;
 
+
 }
  input{
 border-color: #ff3b3f ; 
 box-shadow: none;
 outline:  #ff3b3f  ;
 border-radius: 5px;
-
+text-align: center;
  }
 
  form{
@@ -34,4 +37,13 @@ border-radius: 5px;
     flex-flow: row; 
     align-items: center;
     align-content: space-between;
+ }
+
+ .imputBox{
+     align-content: center;
+     text-align: center;
+ }
+
+ .changeButton{
+padding-top: 40px;
  }
