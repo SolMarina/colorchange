@@ -24,12 +24,6 @@ const ColorfulPicure = (props) => {
     )
 
 
-
-
-
-
-
-
 }
 export default ColorfulPicure;
 
